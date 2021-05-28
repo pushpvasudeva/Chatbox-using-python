@@ -1,14 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 from nltk.chat.util import Chat, reflections
-
-
-# In[4]:
-
 
 #Pairs is a list of patterns and responses.
 pairs = [
@@ -78,10 +68,6 @@ pairs = [
         ['That is nice to hear']
     ],
 ]
-
-
-# In[5]:
-
 
 #default message at the start of chat
 print("Hey,I'here\nLet's Chat!\nPlease type lowercase English language to start a conversation. Type quit to leave ")
